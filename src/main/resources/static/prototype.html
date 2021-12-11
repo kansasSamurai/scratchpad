@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us"> 
+    <head>
+
+        <title>Bootstrap Demo</title>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <!-- Optional meta tags -->
+        <meta name="description" content="">
+        <meta name="author" content="">
+    
+        <!-- #CSS Links -->
+        <!-- Basic Styles -->
+        <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" media="screen" href="css/font-awesome.min.css">
+    
+        <!-- We recommend you use "your_style.css" to override specific styles;
+             this will also ensure you retrain your customization with each update.
+        -->
+        <link rel="stylesheet" type="text/css" media="screen" href="css/prototype_layout.css"> 
+        <link rel="stylesheet" type="text/css" media="screen" href="css/prototype_decorate.css"> 
+
+        <!-- #FAVICONS -->
+        <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+        <link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
+    </head>
+
+    <body>
+
+        <!-- #HEADER -->
+        <header id="header">
+            <div id="logo-group">
+
+                <!-- PLACE YOUR LOGO HERE -->
+                <span id="logo"> <img src="img/logo.png" alt="your-logo"> </span>
+                <!-- END LOGO PLACEHOLDER -->
+            </div>
+
+            <!-- #TOGGLE LAYOUT BUTTONS -->
+            <!-- pulled right: nav area -->
+            <div class="pull-right">
+                
+                <!-- collapse menu button -->
+                <div id="hide-menu" class="btn-header pull-right">
+                    <span> <a href="javascript:void(0);" data-action="toggleMenu" title="Collapse Menu"><i class="fa fa-reorder"></i></a> </span>
+                </div>
+                <!-- end collapse menu -->
+
+                <!-- logout button -->
+                <div id="logout" class="btn-header transparent pull-right">
+                    <span> <a href="login.html" title="Sign Out" data-action="userLogout" data-logout-msg="You can improve your security further after logging out by closing this opened browser"><i class="fa fa-sign-out"></i></a> </span>
+                </div>
+                <!-- end logout button -->
+
+                <div class="btn-header pull-right">
+                    <span> <a href="login.html" title="Role - State System Administrator" > <i class="fa fa-user"></i> SSA </a> </span>
+                </div>
+
+                <div class="btn-header pull-right">
+                    <span> <a href="login.html" title="Organization - Kansas" > <i class="fa fa-sitemap"></i> KS </a> </span>
+                </div>
+
+                <div class="btn-header pull-right">
+                    <span> <a href="login.html" title="Assessment Program - DLM" > <i class="fa fa-graduation-cap"></i> DLM </a> </span>
+                </div>
+
+            </div>
+            <!-- end pulled right: nav area -->
+
+        </header>
+        <!-- END HEADER -->
+
+        <div id="main">
+            <h1>Body content goes here ...</h1>
+        </div>
+
+        <!-- Link to Google CDN's jQuery + jQueryUI; fall back to local 
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+            if (!window.jQuery) {
+                document.write('<script src="js/libs/jquery-2.1.1.min.js"><\/script>');
+            }
+        -->
+        <script src="js/libs/jquery-2.1.1.min.js"></script>
+
+        <!-- Link to Google CDN's jQuery + jQueryUI; fall back to local 
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+            if (!window.jQuery.ui) {
+                document.write('<script src="js/libs/jquery-ui-1.10.3.min.js"><\/script>');
+            }
+        -->
+        <script src="js/libs/jquery-ui-1.10.3.min.js"></script>
+
+        <!-- BOOTSTRAP JS -->
+        <script src="js/bootstrap/bootstrap.min.js"></script>
+
+</body>
+
+</html>
