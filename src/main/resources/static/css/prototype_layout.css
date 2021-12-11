@@ -70,3 +70,65 @@
 #main {
     clear: both;    
 }
+
+================== new
+#left-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 904;
+    padding-top: 49px;
+}
+
+aside {
+    display: block;
+    background: #3a3633;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI5NyUiIHN0b3AtY29sb3I9IiMzYTM2MzMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMmEyNzI1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+    background: -moz-linear-gradient(left,#3a3633 93%,#2a2725 100%);
+    background: -webkit-gradient(linear,left top,right top,color-stop(93%,#3a3633),color-stop(100%,#2a2725));
+    background: -webkit-linear-gradient(left,#3a3633 93%,#2a2725 100%);
+    background: -o-linear-gradient(left,#3a3633 93%,#2a2725 100%);
+    background: -ms-linear-gradient(left,#3a3633 93%,#2a2725 100%);
+    background: linear-gradient(to right,#3a3633 93%,#2a2725 100%);
+    min-height: 100%;
+}
+
+.menu-on-top aside#left-panel {
+    width: 100%!important;
+    min-height: 0!important;
+    height: auto;
+    overflow: visible;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+    border-bottom: 1px solid #222;
+    border-top: 1px solid #333;
+}
+
+.menu-on-top aside#left-panel nav>ul {
+    display: block;
+    width: 100%;
+}
+
+nav ul {
+    width: 100%;
+    padding: 40px 28px 25px 0;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+    line-height: .5em;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li a {
+    line-height: normal;
+    font-size: 14px;
+    padding: 10px 10px 10px 11px;
+    color: #c0bbb7;
+    display: block;
+    font-weight: 400;
+    text-decoration: none!important;
+    position: relative;
+}
+
+
