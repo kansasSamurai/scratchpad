@@ -1,0 +1,72 @@
+/* =================== prototype_layout.css =================================
+ * This is the equivalent of your_style.css for the prototype page.
+ * 
+ * This file controls page layout with minimal "visual styling". 
+ * 
+ * The file 'prototype_decorate.css' controls the "visual styling" rules.
+ * It is designed this way so that the decoration rules can be replaced
+ * independent of the page layout rules. 
+ * 
+ * Note:  Notice that where css is defined by external style sheets,
+ *        I have split the rules between the two files manually.
+ *
+ */
+
+/*
+ * INDEX
+ * 
+ * - HTML
+ * - BODY
+ * - CUSTOM STYLES
+ */
+
+/** external-production */
+.fixed-header #header {
+    position: fixed;
+    width: 100%;
+    z-index: 905;
+    top: 0;
+}
+
+/** external-production */
+#header {
+    display: block;
+    height: 49px;
+    position: relative;
+    z-index: 905;
+}
+
+/** external-production */
+#logo {
+    display: inline-block;
+    width: 175px;
+}
+
+/** external-production */
+#logo img {
+    /** empty */
+}
+
+/** external-production */
+#header>div {
+    display: inline-block;
+    vertical-align: middle;
+    float: left;
+}
+
+/** external-production */
+.btn-header.pull-right {
+    /** empty */
+}
+
+/** external-production */
+.btn-header>:first-child>a {
+    display: inline-block;
+    height: 30px;
+    line-height: 24px;
+    min-width: 30px;
+}
+
+#main {
+    clear: both;    
+}
