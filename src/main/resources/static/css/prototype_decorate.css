@@ -88,3 +88,16 @@
 #main {
     /** empty */
 }
+
+/* These are menu rules which have not yet been split between layout and decorate */
+
+.menu-on-top aside#left-panel nav>ul>li {
+    position: relative;
+    height: auto!important;
+    padding: 0!important;
+    display: inline-block;
+    float: left;
+    border-right: 1px solid #222;
+    border-left: 1px solid #4E4E4E;
+    overflow: visible;
+}
