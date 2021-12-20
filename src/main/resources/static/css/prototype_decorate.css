@@ -101,3 +101,12 @@
     border-left: 1px solid #4E4E4E;
     overflow: visible;
 }
+
+.menu-on-top aside#left-panel nav>ul>li:hover {
+    background: #fff;
+    background: -webkit-gradient(linear,left bottom,left top,color-stop(0,#fff),color-stop(1,#cfcfcf));
+    background: -ms-linear-gradient(bottom,#fff,#cfcfcf);
+    background: -moz-linear-gradient(center bottom,#fff 0,#cfcfcf 100%);
+    background: -o-linear-gradient(#cfcfcf,#fff);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cfcfcf', endColorstr='#ffffff', GradientType=0);
+}
