@@ -110,3 +110,21 @@
     background: -o-linear-gradient(#cfcfcf,#fff);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cfcfcf', endColorstr='#ffffff', GradientType=0);
 }
+
+.menu-on-top aside#left-panel nav>ul>li>a {
+    display: inline-block;
+    height: 68px;
+    text-shadow: none!important;
+    font-size: 13px;
+    text-decoration: none;
+    line-height: 22px;
+    padding: 10px 9px!important;
+}
+
+.menu-on-top aside#left-panel nav>ul>li:hover>a {
+    color: #333!important;
+    border-left: 1px solid #c7c7c7;
+    border-right: 1px solid #c7c7c7;
+    padding-left: 8px!important;
+    padding-right: 8px!important;
+}
