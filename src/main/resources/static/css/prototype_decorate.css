@@ -94,6 +94,19 @@
     box-shadow: inset 0 0 4px 1px rgba(0,0,0,.08);
 }
 
+.btn-header>:first-child>a:active {
+    background-color: #e8e8e8;
+    background-image: -moz-linear-gradient(top,#e8e8e8 0,#ededed 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#e8e8e8),color-stop(100%,#ededed));
+    background-image: -webkit-linear-gradient(top,#e8e8e8 0,#ededed 100%);
+    background-image: -o-linear-gradient(top,#e8e8e8 0,#ededed 100%);
+    background-image: -ms-linear-gradient(top,#e8e8e8 0,#ededed 100%);
+    background-image: linear-gradient(to bottom,#e8e8e8 0,#ededed 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e8e8e8', endColorstr='#ededed', GradientType=0);
+    -webkit-box-shadow: inset 0 0 3px 1px rgba(0,0,0,.15);
+    box-shadow: inset 0 0 3px 1px rgba(0,0,0,.15);
+}
+
 #main {
     /** empty */
 }
